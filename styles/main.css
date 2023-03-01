@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("/fonts/jetbrainsmono-regular-webfont.eot");
+    src: url("/fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"),
+         url("/fonts/jetbrainsmono-regular-webfont.woff") format("woff"),
+         url("/fonts/jetbrainsmono-regular-webfont.ttf") format("truetype"),
+         url("/fonts/jetbrainsmono-regular-webfont.svg#JetBrainsMono") format("svg");
+}
+
+@font-face {
+    font-family: "JetBrainsMonoExtraBold";
+    src: url("/fonts/jetbrainsmono-extrabold-webfont.eot");
+    src: url("/fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"),
+         url("/fonts/jetbrainsmono-extrabold-webfont.woff") format("woff"),
+         url("/fonts/jetbrainsmono-extrabold-webfont.ttf") format("truetype"),
+         url("/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");}
+
+h1 {
+    font-family: "JetBrainsMonoExtraBold";
+    color: #FFFFFF;
+}
+
+p, ul, a {
+    font-family: "JetBrainsMono";
+    color: #D3D3D3;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+a.text-link:hover {
+    color: #FFFFFF
+}
+
+img {
+    transition: 0.5s;
+}
+
+img:hover {
+    transition-duration: 0.5s;
+}
+img.smol:hover {
+    transform: scale(1.15);
+}
+
+img.big:hover {
+    transform: scale(1.05);
+}
+
+button {
+    padding: 15px;
+    background-color: #000000;
+    color: #D3D3D3;
+    border-radius: 0px;
+    border-color: #D3D3D3;
+    border-width: 2px;
+    border-style: solid;
+    font-family: "JetBrainsMono";
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #D3D3D3;
+    color: #000000;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+body {
+    background-color: #000000;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        max-width: 300px;
+    }
+}
