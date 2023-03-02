@@ -18,6 +18,7 @@
 
 html {
     cursor: url("/cursors/cursor.png") 10 10, auto;
+    background-color: #000000;
 }
 
 h1 {
