@@ -13,7 +13,12 @@
     src: url("/fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"),
          url("/fonts/jetbrainsmono-extrabold-webfont.woff") format("woff"),
          url("/fonts/jetbrainsmono-extrabold-webfont.ttf") format("truetype"),
-         url("/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");}
+         url("/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");
+}
+
+html {
+    cursor: url("/cursors/cursor.png") 10 10, auto;
+}
 
 h1 {
     font-family: "JetBrainsMonoExtraBold";
@@ -28,6 +33,7 @@ p, ul, a {
 a {
     text-decoration: underline;
     text-underline-offset: 2px;
+    cursor: url("/cursors/cursor_yellow.png") 10 10, auto;
 }
 
 a.text-link:hover {
@@ -59,13 +65,13 @@ button {
     border-style: solid;
     font-family: "JetBrainsMono";
     transition: 0.5s;
+    cursor: url("/cursors/cursor_yellow.png") 10 10, auto;
 }
 
 button:hover {
     background-color: #D3D3D3;
     color: #000000;
     transition-duration: 0.5s;
-    cursor: pointer;
 }
 
 body {
