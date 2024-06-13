@@ -8,5 +8,5 @@
 }
 
 body {
-    font: "JetBrainsMono";
+    font: "JetBrainsMono" !important;
 }
