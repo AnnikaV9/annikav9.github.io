@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: "JetBrainsMonoExtraBold";
-    src: url("/static/fonts/jetbrainsmono-extrabold-webfont.eot");
-    src: url("/static/fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"),
-         url("/static/fonts/jetbrainsmono-extrabold-webfont.woff") format("woff"),
-         url("/static/fonts/jetbrainsmono-extrabold-webfont.ttf") format("truetype"),
-         url("/static/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");
+    src: url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.eot");
+    src: url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"),
+         url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.woff") format("woff"),
+         url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.ttf") format("truetype"),
+         url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");
 }
 
 body {
