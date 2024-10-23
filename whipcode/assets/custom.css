@@ -1,19 +1,19 @@
 @font-face {
     font-family: "JetBrainsMono";
-    src: url("https://whipcode.app/static/fonts/jetbrainsmono-regular-webfont.eot");
-    src: url("https://whipcode.app/static/fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"),
-         url("https://whipcode.app/static/fonts/jetbrainsmono-regular-webfont.woff") format("woff"),
-         url("https://whipcode.app/static/fonts/jetbrainsmono-regular-webfont.ttf") format("truetype"),
-         url("https://whipcode.app/static/fonts/jetbrainsmono-regular-webfont.svg#JetBrainsMono") format("svg");
+    src: url("https://av9.dev/fonts/jetbrainsmono-regular-webfont.eot");
+    src: url("https://av9.dev/fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"),
+         url("https://av9.dev/fonts/jetbrainsmono-regular-webfont.woff") format("woff"),
+         url("https://av9.dev/fonts/jetbrainsmono-regular-webfont.ttf") format("truetype"),
+         url("https://av9.dev/fonts/jetbrainsmono-regular-webfont.svg#JetBrainsMono") format("svg");
 }
 
 @font-face {
     font-family: "JetBrainsMonoExtraBold";
-    src: url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.eot");
-    src: url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"),
-         url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.woff") format("woff"),
-         url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.ttf") format("truetype"),
-         url("https://whipcode.app/static/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");
+    src: url("https://av9.dev/fonts/jetbrainsmono-extrabold-webfont.eot");
+    src: url("https://av9.dev/fonts/jetbrainsmono-extrabold-webfont.woff2") format("woff2"),
+         url("https://av9.dev/fonts/jetbrainsmono-extrabold-webfont.woff") format("woff"),
+         url("https://av9.dev/fonts/jetbrainsmono-extrabold-webfont.ttf") format("truetype"),
+         url("https://av9.dev/fonts/jetbrainsmono-extrabold-webfont.svg#JetBrainsMonoExtraBold") format("svg");
 }
 
 body {
