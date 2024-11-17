@@ -1,12 +1,4 @@
-// oneko.js: https://github.com/adryd325/oneko.js
-
 (function oneko() {
-  const isReducedMotion =
-    window.matchMedia(`(prefers-reduced-motion: reduce)`) === true ||
-    window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
-
-  if (isReducedMotion) return;
-
   const nekoEl = document.createElement("div");
 
   let nekoPosX = 32;
